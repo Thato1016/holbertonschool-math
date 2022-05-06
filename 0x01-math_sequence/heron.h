@@ -1,6 +1,5 @@
-#ifndef HEADER_MATH
-#define HEADER_MATH
-
+#ifndef HERON_H
+#define HERON_H
 #include <stdlib.h>
 
 /**

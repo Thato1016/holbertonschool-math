@@ -1,23 +1,13 @@
-#ifndef HEADER_MATH
-#define HEADER_MATH
-
-#include <stdio.h>
+#ifndef FIBONACCI_H
+#define FIBONACCI_H
 #include <stdlib.h>
-#include <math.h>
-
-/**
- * struct cell - list of results
- * @elt: number
- * @next: point to the next node
- */
-typedef struct cell
+typedef struct t_cell
 {
 	int elt;
-	struct cell *next;
+	struct t_cell *next;
 } t_cell;
 
 t_cell *Fibonnaci();
 double gold_number(t_cell *head);
-
 
 #endif
